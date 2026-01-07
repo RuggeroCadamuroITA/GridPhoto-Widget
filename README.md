@@ -1,22 +1,20 @@
 # GridPhoto Widget 📸
 
-Un'applicazione Android moderna e Open Source per personalizzare la tua home screen con widget fotografici di varie dimensioni.
+Un'app intuitiva per portare le tue foto preferite sulla home screen del tuo smartphone.
 
-## ✨ Caratteristiche
-- **Widget Multi-formato**: Supporto per dimensioni 1x1, 2x2 e 1x2.
-- **Ritaglio Intelligente**: Ritaglia le tue foto in formato 1:1 per un aspetto perfetto sul widget.
-- **Selezione Multipla**: Scegli quante foto vuoi dalla galleria e ritagliale in sequenza.
-- **Tema Scuro**: Interfaccia utente nativa in Dark Mode (Jetpack Compose).
-- **Open Source**: Sviluppato interamente con le ultime tecnologie Android.
+## ✨ Caratteristiche principali
+- **Multi-Size**: Supporto per widget 1x1, 2x2 e 1x2.
+- **Ritaglio Intelligente**: Integrazione con uCrop per ritagli 1:1 perfetti.
+- **Batch Processing**: Seleziona decine di foto insieme e ritagliale una dopo l'altra.
+- **Modern UI**: Interfaccia totalmente in Dark Mode costruita con Jetpack Compose.
+- **Privacy focused**: Le foto vengono salvate localmente nella memoria interna dell'app.
 
-## 🛠 Tecnologie utilizzate
-- **Jetpack Compose** per l'interfaccia utente.
-- **uCrop** per il sistema di ritaglio professionale.
-- **RemoteViews** per la gestione dinamica dei widget.
+## 🚀 Tecnologie
+- Kotlin & Jetpack Compose
+- Material 3 Design
+- uCrop Library
+- AppWidgetManager (RemoteViews)
 
-## 👨‍💻 Sviluppatore
-Sviluppato da **RuggeroCadamuroITA**
-- GitHub: [RuggeroCadamuroITA](https://github.com/RuggeroCadamuroITA)
-
-## 📄 Licenza
-Questo progetto è distribuito sotto licenza MIT.
+## 👤 Sviluppatore
+Realizzato da **RuggeroCadamuroITA**  
+[Visita il mio profilo GitHub](https://github.com/RuggeroCadamuroITA)
