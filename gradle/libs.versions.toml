@@ -1,0 +1,18 @@
+[versions]
+agp = "8.3.2" # La tua versione potrebbe essere diversa, non toccarla se è diversa
+kotlin = "1.9.0" # Idem come sopra
+coreKtx = "1.12.0"
+appcompat = "1.6.1"
+material = "1.11.0"
+ucrop = "2.2.8"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+# Definizione corretta di ucrop
+yalantis-ucrop = { group = "com.github.yalantis", name = "ucrop", version.ref = "ucrop" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
